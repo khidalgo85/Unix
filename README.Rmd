@@ -47,9 +47,9 @@ Instituto de Biologia - UNICAMP
 
 # UNIX Shell
 
-🇧🇷 O shell do Unix é um interpretador da linha de comando. É uma ferramenta poderosa que permite aos usuários executar tarefas complexas e poderosas, geralmente com algumas linhas de código.Em este tutorial, você vai entrar na "telinha preta" 🖥 e vai aprender e exercitar alguns comandos básicos e indispensáveis, para navegar e se desenvolver no *terminal*.
+🇧🇷 O shell do Unix é um interpretador da linha de comando. É uma ferramenta poderosa que permite aos usuários executar tarefas complexas e poderosas, geralmente com algumas linhas de código.Em este tutorial, você vai entrar na "telinha preta" 🖥, vai aprender e exercitar alguns comandos básicos e indispensáveis, para navegar e se desenvolver no *terminal*.
 
-> 🇪🇸 El shell de Unix es un interpretador de línea de comando. Es una herramenta poderosa que permite a los usuarios a ejecutar tareas complejas y poderosas, generalmente con algunas líneas de código.En este tutorial, usted va entrar en la "pantalla negra" 🖥 y va a aprender y ejercitar algunos comandos básicos e indispensables, para navegar y se desenvolver en el *terminal*.
+> 🇪🇸 El shell de Unix es un interpretador de línea de comando. Es una herramenta poderosa que permite a los usuarios a ejecutar tareas complejas y poderosas, generalmente con algunas líneas de código.En este tutorial, usted va entrar en la "pantalla negra" 🖥 , va a aprender y ejercitar algunos comandos básicos e indispensables, para navegar y se desenvolver en el *terminal*.
 
 ---
 
@@ -57,7 +57,7 @@ Instituto de Biologia - UNICAMP
 Normalmente a interação do humano com o computador acontece por meio de um teclado e um mouse, interfaces gráficas, sistemas de reconhecimento de voz. O jeito mais comum de interagir é chamada de interface gráfica de usuário *(**G**raphical **U**ser **I**nterface)*. Quando se trabalha em um GUI, as ordens são dadas clicando com o mouse e usando interações orientadas por diferentes menús. Isso funciona muito bem para escalas pequenas, pois é muito intuitivo. Mas agora imagine que você precisa executar uma tarefa em mil arquivos em diferentes pastas, por exemplo, copiar a última linha de todos os arquivos e colá-las em um único arquivo. Vc pasaria horas (talvez dias) fazendo o processo e ainda poderia cometer erros. Aí é quando o shell é muito útil, já que por ser uma interface de linha de comando *(**C**ommand **L**ine **I**nterface*)* e uma linguagem de srcipt, permite processar tarefas repetitivas como as do exemplo, sendo feitas de forma rápida e automática. O uso do shell é fundamental para o uso de uma ampla variedade de ferramentas ⚒ de bioinformática 🖥. Este tutorial vai servir para você fazer um uso eficaz desses recursos.
 
 > # 🇪🇸  Introducción
-Normalmente la interacción del humano con el computador sucede por medio de un teclado e un mouse, interfaces gráficas, sistemas de reconocimiento de voz. La manera más comúm de interacturar es llamada como interface gráfica de usuário *(**G**raphical **U**ser **I**nterface)*. Cuando se trabaja en una GUI, las ordenes son dadas haciendo click con el  mouse y usando interaciones orientadas por diferentes menús. Eso funciona mucho bien para escalas pequeñas, pues es muy intuitivo. Pero ahora imagine que usted necesita ejecutar una tarea en mil archivos en diferentes carpetas, por ejemplo, copiar la última línea de todos los archivos y pegarlos en un único archivo. Serían necesarias muchas horas (tal vez dias) ejecutando el proceso y además podría cometer errores. Es ahí cuando shell es muy útil, ya que por ser una interface de línea de comando *(**C**ommand **L**ine **I**nterface*)* y un lenguaje de srcipt, permite procesar tareas repetitivas como las del ejemplo, siendo realizadas de una forma rápida y automática. El uso de shell es fundamental para el uso de uma amplia variedad de herramientas ⚒ de bioinformática 🖥. Este tutorial le va s servir para hacer un uso eficaz de estos recursos.
+Normalmente la interacción del humano con el computador sucede por medio de un teclado y un mouse, interfaces gráficas, sistemas de reconocimiento de voz. La manera más comúm de interacturar, es llamada como interface gráfica de usuário *(**G**raphical **U**ser **I**nterface)*. Cuando se trabaja en una GUI, las ordenes son dadas haciendo click con el  mouse y usando interaciones orientadas por diferentes menús. Eso funciona muy bien para escalas pequeñas, pues es muy intuitivo. Pero ahora imagine que usted necesita ejecutar una tarea en mil archivos en diferentes carpetas, por ejemplo, copiar la última línea de todos los archivos y pegarlos en un único archivo. Serían necesarias muchas horas (tal vez días) ejecutando el proceso y además podría cometer errores. Es ahí cuando shell es muy útil, ya que por ser una interface de línea de comando *(**C**ommand **L**ine **I**nterface*)* y un lenguaje de srcipt, permite procesar tareas repetitivas como las del ejemplo, siendo realizadas de una forma rápida y automática. El uso de shell es fundamental para el uso de uma amplia variedad de herramientas ⚒ de bioinformática 🖥. Este tutorial le va s servir para hacer un uso eficaz de estos recursos.
 
 
 **Nota**
@@ -79,8 +79,9 @@ ls
 
 > 🇪🇸 **Nota**
 > 
-> * Cuando la caja **NO** comienza con `$`, entonces se trata de la salida del comando, es decir lo que ud deberia ver en su pantalla después de correr el comando. 
+> * Cuando la caja **NO** não é um comando e sim uma saída, ósea lo que ud debería en su pantalla, después de rodar el comando. Será avisado como * es decir lo que ud deberia ver en su pantalla después de correr el comando **output**.
 
+**Output**
 ```
 Desktop   Downloads   Pictures    Documents   Library
 ```
@@ -149,13 +150,13 @@ Na figura se mostra graficamente o output do comando `pwd`.
 
 O comando é separado das opções (ou argumentos, flags) e do arquivo 📄 por um espaço. Os argumentos podem mudar o comportamento do comando. E o arquivo 📄 fala pro comando sobre o que vai a operar (p.e. arquivos 📄 e diretórios 📁). As vezes argumentos e o arquivo 📄 são chamados de **parâmetros**. Um comando pode ter mais de um argumento e/ou arquivos 📄 e também poderia não ter nemhum dos dois. As opções usualmente tem um traço e uma letra (p.e. `-h`) ou dois traços e uma palavra (p.e. `--help`), **sem** espaço entre o(s) traço(s) e a letra/palavra. Vamos ver com exemplos práticos.
 
-**Importante:**:exclamation: a linguagem usada no UNIX é sensível a letras maiúsculas e minúsculas (*case sensitive*), é um erro comúm. **Fique atento sempre**:exclamation:
+**Importante:**:exclamation: a linguagem usada no UNIX é sensível a letras maiúsculas e minúsculas (*case sensitive*), é um erro comúm. **Fique atento sempre** :exclamation:
 
 > 🇪🇸
 > 
 > El comando es separado de las opciones (o argumentos, flags) e do archivo 📄 por un espacio. Los argumentos pueden mudar el comportamiento del comando. Y el archivo 📄 indica para el comando sobre lo que va a operar (p.e. archivos 📄 y directorios 📁). A veces los argumentos y el archivo 📄 son llamados de **parámetros**. Un comando puede tener más de un argumento y/o archivos 📄 y también podria no tener ninguno de los dos. Las opciones usualmente tienen un guión y una letra (p.e. `-h`) o dos guiones y una palabra (p.e. `--help`), **sin** espacio entre lo(s) guion(es) y la letra/palabra. Vamos a ver con ejemplos prácticos.
 >
-> **Importante:**:exclamation: el lenguaje usado en UNIX es sensible a letras mayúsculas e minúsculas (*case sensitive*), es un error común. **Siempre atento**:exclamation
+> **Importante:**:exclamation: el lenguaje usado en UNIX es sensible a letras mayúsculas e minúsculas (*case sensitive*), es un error común. **Siempre atento** :exclamation:
   
 ### `ls` Listar
 
@@ -285,6 +286,7 @@ Igual a:
 
 O comando `cd` serve para trocar de **diretório atual de trabalho** 📁.
 Vai no diretório `dados/`
+
 > 🇪🇸
 > 
 > El comando 'cd' sirve para cambiar de **directorio actual de trabajo** 📁. Vaya al directorio `dados/`
@@ -388,7 +390,7 @@ Se existir outro elemento que comece com "col" (p.e. coleta_2020, coleta_2019), 
 
 > 🇪🇸
 > 
-> Sí por alguna razón existe otro elemento que también comience com "col", oprima dos vezes Tab "keyboard: e el sistema va a mostrar las opciones de palabras que inicien con "col".
+> Sí por alguna razón existe otro elemento que también comience com "col", oprima dos vezes Tab :keyboard: e el sistema va a mostrar las opciones de palabras que inicien con "col".
 
 ```
 ## Estando em analises/ crie uma pasta chamada coleta_2019
@@ -398,7 +400,7 @@ Agora, você quer entrar nessa pasta nova. Use o comando `cd` para trocar de pas
 
 > 🇪🇸
 > 
-> Ahora, usted quiere entrar en esa pasta nueva. Use el comando `cd` para cambiar de carpeta y use [Tab] [Tab] para que el sistema muestre las opciones con cominzo "col".
+> Ahora, usted quiere entrar en esa pasta nueva. Use el comando `cd` para cambiar de carpeta y use [Tab] [Tab] para que el sistema muestre las opciones con comienzo "col".
 
 
 
@@ -548,6 +550,7 @@ Você pode usar o comando `cp` para copiar vários arquivos 📄📄 em uma linh
 
 ### `rm` remove
 Com o comando `rm` você pode remover arquivos 📄 e/ou pastas📁. **CUIDADO!!**:exclamation: **PRECAUÇÃO**:exclamation: este comando não tem volta atrás, uma vez você oprima [enter] não tem como recuperar o arquivo 📄 ou pasta 📁, então revise e pense bem antes de rodar este comando. 
+
 > 🇪🇸
 > 
 > Con o comando `rm` ud puede remover archivos 📄 y/o carpetas 📁. **CUIDADO**:exclamation: **PRECAUCIÓN**:exclamataion: este comando no tiene reversa, una vez ud oprima [enter] no hay como recuperar el archivo 📄 ou carpeta 📁, entonces revise y piense bien antes de rodar este comando.

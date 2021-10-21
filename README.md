@@ -27,14 +27,14 @@ Instituto de Biologia - UNICAMP
 🇧🇷 O shell do Unix é um interpretador da linha de comando. É uma
 ferramenta poderosa que permite aos usuários executar tarefas complexas
 e poderosas, geralmente com algumas linhas de código.Em este tutorial,
-você vai entrar na “telinha preta” 🖥 e vai aprender e exercitar alguns
+você vai entrar na “telinha preta” 🖥, vai aprender e exercitar alguns
 comandos básicos e indispensáveis, para navegar e se desenvolver no
 *terminal*.
 
 > 🇪🇸 El shell de Unix es un interpretador de línea de comando. Es una
 > herramenta poderosa que permite a los usuarios a ejecutar tareas
 > complejas y poderosas, generalmente con algunas líneas de código.En
-> este tutorial, usted va entrar en la “pantalla negra” 🖥 y va a
+> este tutorial, usted va entrar en la “pantalla negra” 🖥 , va a
 > aprender y ejercitar algunos comandos básicos e indispensables, para
 > navegar y se desenvolver en el *terminal*.
 
@@ -63,16 +63,16 @@ para você fazer um uso eficaz desses recursos.
 > # 🇪🇸 Introducción
 >
 > Normalmente la interacción del humano con el computador sucede por
-> medio de un teclado e un mouse, interfaces gráficas, sistemas de
-> reconocimiento de voz. La manera más comúm de interacturar es llamada
+> medio de un teclado y un mouse, interfaces gráficas, sistemas de
+> reconocimiento de voz. La manera más comúm de interacturar, es llamada
 > como interface gráfica de usuário *(**G**raphical **U**ser
 > **I**nterface)*. Cuando se trabaja en una GUI, las ordenes son dadas
 > haciendo click con el mouse y usando interaciones orientadas por
-> diferentes menús. Eso funciona mucho bien para escalas pequeñas, pues
-> es muy intuitivo. Pero ahora imagine que usted necesita ejecutar una
+> diferentes menús. Eso funciona muy bien para escalas pequeñas, pues es
+> muy intuitivo. Pero ahora imagine que usted necesita ejecutar una
 > tarea en mil archivos en diferentes carpetas, por ejemplo, copiar la
 > última línea de todos los archivos y pegarlos en un único archivo.
-> Serían necesarias muchas horas (tal vez dias) ejecutando el proceso y
+> Serían necesarias muchas horas (tal vez días) ejecutando el proceso y
 > además podría cometer errores. Es ahí cuando shell es muy útil, ya que
 > por ser una interface de línea de comando *(**C**ommand **L**ine
 > **I**nterface*)\* y un lenguaje de srcipt, permite procesar tareas
@@ -105,9 +105,12 @@ ls
 
 > 🇪🇸 **Nota**
 >
-> -   Cuando la caja **NO** comienza con `$`, entonces se trata de la
->     salida del comando, es decir lo que ud deberia ver en su pantalla
->     después de correr el comando.
+> -   Cuando la caja **NO** não é um comando e sim uma saída, ósea lo
+>     que ud debería en su pantalla, después de rodar el comando. Será
+>     avisado como \* es decir lo que ud deberia ver en su pantalla
+>     después de correr el comando **output**.
+
+**Output**
 
     Desktop   Downloads   Pictures    Documents   Library
 
@@ -216,7 +219,7 @@ ver com exemplos práticos.
 
 **Importante:**:exclamation: a linguagem usada no UNIX é sensível a
 letras maiúsculas e minúsculas (*case sensitive*), é um erro comúm.
-**Fique atento sempre**:exclamation:
+**Fique atento sempre** :exclamation:
 
 > 🇪🇸
 >
@@ -233,7 +236,7 @@ letras maiúsculas e minúsculas (*case sensitive*), é um erro comúm.
 >
 > **Importante:**:exclamation: el lenguaje usado en UNIX es sensible a
 > letras mayúsculas e minúsculas (*case sensitive*), es un error común.
-> **Siempre atento**:exclamation
+> **Siempre atento** :exclamation:
 
 ### `ls` Listar
 
@@ -404,9 +407,12 @@ Igual a:
 ### `cd` Change Directory
 
 O comando `cd` serve para trocar de **diretório atual de trabalho** 📁.
-Vai no diretório `dados/` &gt; 🇪🇸 &gt; &gt; El comando ‘cd’ sirve para
-cambiar de **directorio actual de trabajo** 📁. Vaya al directorio
-`dados/`
+Vai no diretório `dados/`
+
+> 🇪🇸
+>
+> El comando ‘cd’ sirve para cambiar de **directorio actual de trabajo**
+> 📁. Vaya al directorio `dados/`
 
     cd dados/
 
@@ -529,8 +535,8 @@ vai mostrar as palavras com aquele começo.
 > 🇪🇸
 >
 > Sí por alguna razón existe otro elemento que también comience com
-> “col”, oprima dos vezes Tab “keyboard: e el sistema va a mostrar las
-> opciones de palabras que inicien con”col".
+> “col”, oprima dos vezes Tab :keyboard: e el sistema va a mostrar las
+> opciones de palabras que inicien con “col”.
 
     ## Estando em analises/ crie uma pasta chamada coleta_2019
      mkdir coleta_2019
@@ -543,7 +549,7 @@ começo “col”.
 >
 > Ahora, usted quiere entrar en esa pasta nueva. Use el comando `cd`
 > para cambiar de carpeta y use \[Tab\] \[Tab\] para que el sistema
-> muestre las opciones con cominzo “col”.
+> muestre las opciones con comienzo “col”.
 
     cd col
 
@@ -704,11 +710,15 @@ Com o comando `rm` você pode remover arquivos 📄 e/ou pastas📁.
 **CUIDADO!!**:exclamation: **PRECAUÇÃO**:exclamation: este comando não
 tem volta atrás, uma vez você oprima \[enter\] não tem como recuperar o
 arquivo 📄 ou pasta 📁, então revise e pense bem antes de rodar este
-comando. &gt; 🇪🇸 &gt; &gt; Con o comando `rm` ud puede remover archivos
-📄 y/o carpetas 📁. **CUIDADO**:exclamation: **PRECAUCIÓN**:exclamataion:
-este comando no tiene reversa, una vez ud oprima \[enter\] no hay como
-recuperar el archivo 📄 ou carpeta 📁, entonces revise y piense bien antes
-de rodar este comando.
+comando.
+
+> 🇪🇸
+>
+> Con o comando `rm` ud puede remover archivos 📄 y/o carpetas 📁.
+> **CUIDADO**:exclamation: **PRECAUCIÓN**:exclamataion: este comando no
+> tiene reversa, una vez ud oprima \[enter\] no hay como recuperar el
+> archivo 📄 ou carpeta 📁, entonces revise y piense bien antes de rodar
+> este comando.
 
 **Sintaxe**
 
