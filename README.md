@@ -33,7 +33,7 @@ comandos básicos e indispensáveis, para navegar e se desenvolver no
 
 > 🇪🇸 El shell de Unix es un interpretador de línea de comando. Es una
 > herramenta poderosa que permite a los usuarios a ejecutar tareas
-> complejas y poderosas, generalmente con algunas líneas de código.En
+> complejas y poderosas, generalmente con algunas líneas de código. En
 > este tutorial, usted va entrar en la “pantalla negra” 🖥 , va a
 > aprender y ejercitar algunos comandos básicos e indispensables, para
 > navegar y se desenvolver en el *terminal*.
@@ -53,17 +53,17 @@ executar uma tarefa em mil arquivos em diferentes pastas, por exemplo,
 copiar a última linha de todos os arquivos e colá-las em um único
 arquivo. Vc pasaria horas (talvez dias) fazendo o processo e ainda
 poderia cometer erros. Aí é quando o shell é muito útil, já que por ser
-uma interface de linha de comando *(**C**ommand **L**ine
-**I**nterface*)\* e uma linguagem de srcipt, permite processar tarefas
-repetitivas como as do exemplo, sendo feitas de forma rápida e
-automática. O uso do shell é fundamental para o uso de uma ampla
-variedade de ferramentas ⚒ de bioinformática 🖥. Este tutorial vai servir
-para você fazer um uso eficaz desses recursos.
+uma interface de linha de comando *(**C**ommand **L**ine **I**nterface)*
+e uma linguagem de script, permite processar tarefas repetitivas como as
+do exemplo, sendo feitas de forma rápida e automática. O uso do shell é
+fundamental para o uso de uma ampla variedade de ferramentas ⚒ de
+bioinformática 🖥. Este tutorial vai servir para você fazer um uso eficaz
+desses recursos.
 
 > # 🇪🇸 Introducción
 >
 > Normalmente la interacción del humano con el computador sucede por
-> medio de un teclado y un mouse, interfaces gráficas, sistemas de
+> medio de un teclado y un mouse, interfaces gráficas y/o sistemas de
 > reconocimiento de voz. La manera más comúm de interacturar, es llamada
 > como interface gráfica de usuário *(**G**raphical **U**ser
 > **I**nterface)*. Cuando se trabaja en una GUI, las ordenes son dadas
@@ -75,11 +75,11 @@ para você fazer um uso eficaz desses recursos.
 > Serían necesarias muchas horas (tal vez días) ejecutando el proceso y
 > además podría cometer errores. Es ahí cuando shell es muy útil, ya que
 > por ser una interface de línea de comando *(**C**ommand **L**ine
-> **I**nterface*)\* y un lenguaje de srcipt, permite procesar tareas
+> **I**nterface)* y un lenguaje de srcipt, permite procesar tareas
 > repetitivas como las del ejemplo, siendo realizadas de una forma
 > rápida y automática. El uso de shell es fundamental para el uso de uma
 > amplia variedad de herramientas ⚒ de bioinformática 🖥. Este tutorial
-> le va s servir para hacer un uso eficaz de estos recursos.
+> le va a servir para hacer un uso eficaz de estos recursos.
 
 **Nota**
 
@@ -89,8 +89,8 @@ para você fazer um uso eficaz desses recursos.
 
 > 🇪🇸 **Nota**
 >
-> -   Siempre que ud vea una casa como ésta 👇🏼, es para usted digitar el
->     contenido en la línea de comando e presionar \[enter\] ⌨️ para
+> -   Siempre que ud vea una caja como ésta 👇🏼, es para que usted dígite
+>     el contenido en la línea de comando y presione \[enter\] ⌨️ para
 >     **“correr”** el comando.
 
 ``` bash
@@ -157,8 +157,8 @@ serve especificamente para se conectar a um servidor.
 
 > 🇪🇸
 >
-> `ssh` (Secure Shell) es un protocolo que garantiza que el usuario y
-> elservidor remoto intercambien informaciones de manera segura e
+> `ssh` (Secure Shell) es un protocolo que garantiza que el usuario y el
+> servidor remoto intercambien informaciones de manera segura e
 > dinámica. Sirve especificamente para conectarse a un servidor remoto.
 
     $ ssh -X <user_name>@<ip.address>
@@ -170,18 +170,18 @@ você está dentro de alguma caixinha **(Diretório)** 📁 de seu computador
 💻 ou servidor, chamado **diretório de trabalho atual**. Os comandos
 somente lêem e gravam arquivos no diretório de trabalho atual (se você
 não indicar outro caminho), portanto, é **importante** :exclamation:
-saber onde você está antes de executar um comando. `pwd` mostra onde
-você está.
+saber onde você está antes de executar um comando. O comando `pwd`
+mostra onde você está.
 
 > 🇪🇸
 >
 > Los directorios 📁 son como cajas. Siempre que usted está usando el
 > shell, usted está dentro de alguna caja **(Directorio)** 📁 de su
-> computador 💻 o servidor, llamado **directorio de trabajo actual**. Los
-> comandos solamente leen y graban archivos en el directorio de trabajo
-> actual (sí usted no indicar otro camino), por lo tanto, es
+> computador 💻 o servidor, llamado **directorio actual de trabajo**. Los
+> comandos solamente leen y graban archivos en el directorio actual de
+> trabajo (sí usted no indicar otro camino), por lo tanto, es
 > **importante** :exclamation: saber en cual directorio está antes de
-> ejecutar un comando. `pwd` muestra donde está.
+> ejecutar un comando. El comando `pwd` muestra donde está.
 
     pwd
 
@@ -282,7 +282,7 @@ comando, e como usar ele 🤙🏼. Explore o menu help.
 > Usted puede usar el **argumento** `-F` para indicar para el comando
 > `ls` que muestre lo que es cada elemento (directorio o archivo). `/`
 > significa que es un directorio 📁, el `*` significa que es un archivo
-> ejecutable y sí no tiene ningún símbolosignifica que es un archivo 📄.
+> ejecutable y sí no tiene ningún símbolo significa que es un archivo 📄.
 >
 > El ***flag*** 🚩 `--help` 🆘 es bien importante:exclamation:, y puede
 > ser usado en **cualquier** comando. El muestra más información sobre
@@ -388,7 +388,7 @@ Igual a:
 -   Não 🚫 comece nomes com `-`
 -   Dê para seus elementos nomes facíes de lembrar e esrcever e que
     desrcevam o que contém.
--   Não use caracteres espaciais :face\_with\_symbols\_on\_mouth:
+-   Não use caracteres espaciais
 
 > 🇪🇸
 >
@@ -402,7 +402,7 @@ Igual a:
 > -   Assigne para sus elementos nombres fáciles de recordar y esrcibir
 >     y que desrciban lo que contienen.
 >
-> -   Não use caracteres espaciais :face\_with\_symbols\_on\_mouth:
+> -   Não use caracteres espaciais
 
 ### `cd` Change Directory
 
@@ -411,7 +411,7 @@ Vai no diretório `dados/`
 
 > 🇪🇸
 >
-> El comando ‘cd’ sirve para cambiar de **directorio actual de trabajo**
+> El comando `cd` sirve para cambiar de **directorio actual de trabajo**
 > 📁. Vaya al directorio `dados/`
 
     cd dados/
@@ -447,7 +447,7 @@ confira com `ls`
 
 > 🇪🇸
 >
-> Ahora entre en la carpeta 📁 `analises/` e crie otra 📁 llamada
+> Ahora entre en la carpeta 📁 `analises/` y cree otra 📁 llamada
 > `coleta_2020`, confirme con `ls`
 
     ## Troque de pasta
@@ -472,7 +472,7 @@ pastas assim:
 
 > 🇪🇸
 >
-> Ahora entre a la carpeta que acabó de crear usando el comando `cd` e
+> Ahora entre a la carpeta que acabó de crear usando el comando `cd` y
 > verifique donde está con `pwd`, después regrese para el directorio
 > base `root/` 📁 y verifique nuevamente.
 >
@@ -622,9 +622,9 @@ Agora use o comando `mv` para trocar o nome do arquivo 📄 `test.txt` por
 
 > 🇪🇸
 >
-> Ud usó `../`, porque ud estaba dentro de la carpta 📁 `/root/tutorial/`
-> y necesitaba volver para 📁 `/root/` (📁 carpta arriba de `tutorial/`)
-> para continuar el camino para 📁 `dados/`.
+> Ud usó `../`, porque ud estaba dentro de la carpeta 📁
+> `/root/tutorial/` y necesitaba volver para 📁 `/root/` (📁 carpeta
+> arriba de `tutorial/`) para continuar el camino para 📁 `dados/`.
 >
 > Ahora use el comando `mv` para cambiar el nombre del archivo 📄
 > `test.txt` por `prova.txt`. **Sintaxis**
@@ -700,7 +700,7 @@ linha de comando só.
 > 🇪🇸
 >
 > Ud puede usar el comando `cp` para copiar varios archivos 📄📄 en una
-> línera de comando solamente.
+> línea de comando solamente.
 
 **Sintaxe** `cp arquivo1.txt arquivo2.txt arquivo3.txt pasta/`
 
@@ -715,9 +715,9 @@ comando.
 > 🇪🇸
 >
 > Con o comando `rm` ud puede remover archivos 📄 y/o carpetas 📁.
-> **CUIDADO**:exclamation: **PRECAUCIÓN**:exclamataion: este comando no
+> **CUIDADO**:exclamation: **PRECAUCIÓN**:exclamation: este comando no
 > tiene reversa, una vez ud oprima \[enter\] no hay como recuperar el
-> archivo 📄 ou carpeta 📁, entonces revise y piense bien antes de rodar
+> archivo 📄 o carpeta 📁, entonces revise y piense bien antes de rodar
 > este comando.
 
 **Sintaxe**
@@ -862,7 +862,7 @@ No exemplo anterior, foram concatenados os arquivos `bssA_1.txt` e
 
 > 🇪🇸
 >
-> En el ejemplo anterior, fueran concatenados los archivos `bssA_1.txt`
+> En el ejemplo anterior, fueron concatenados los archivos `bssA_1.txt`
 > y `bssA_2.txt` dentro del archivo `bss_all.txt`.
 
 ### `wc` Word count
@@ -1034,8 +1034,8 @@ a sessão ficará rodando e você poderá voltar acessar a ela.
 
 > 🇪🇸
 >
-> Screen es una aplicación desarrollada para Linx, que tiene como
-> objetivo la multiplexación de temrinales. O sea, él divide el temrinal
+> Screen es una aplicación desarrollada para Linux, que tiene como
+> objetivo la multiplexación de terminales. O sea, él divide el terminal
 > físico en varias sesiones virtuales. Funciona así, sí ud está
 > trabajando en una sesión del terminal, usando screen, cuando apague su
 > computador, la sesión continuará corriendo los procesos y ud podrá
@@ -1068,7 +1068,7 @@ Para eliminar a sessão aperte \[Ctrl + d\]
 
 ### Scripts simples de uma linha de comando
 
-Para renomear muitos arquivos *.old a *.new. PAra testar primeito,
+Para renomear muitos arquivos *.old* a \*.new. Para testar primeiro,
 susbtituia `do mv` por `do echo mv`.
 
     for i in *.input; do mv $i ${i/\.old/\.new}; done
@@ -1111,5 +1111,49 @@ como `.tar` e `.zip`.
 
     tar -xvf arquivo.tar
     unzip meudiretorio.zip
+
+### Anaconda
+
+🇧🇷 É recomendável instalar Anaconda, pois é a forma mais fácil para
+instalar as ferramentas bioinformáticas. Anaconda é uma distribuição
+livre e aberta das linguagens *Python* e *R*, utilizada na ciência de
+dados e bioinformática. As diferente versões dos programas se
+administram mediante um sinstema de gestão chamado *conda*, o qual faz
+bastante simples instalar, rodar e atualizar programas.
+[Aqui](https://conda.io/projects/conda/en/latest/user-guide/install/index.html)
+se encontram as instruções para a instalação de Anaconda.
+
+Depois de instalado, *Anaconda* e o gestor *Conda*, podram ser criados
+*ambientes virtuais* par a instalação das diferentes ferramentas
+bioinformática que serão usadas.
+
+> 🇪🇸 Es recomendable instalar Anaconda, pues es la forma más fácil para
+> instalar las herramientas bioinformáticas. Anaconda es una
+> distribución libre y abierta de los lenguajes *Python* y *R*,
+> utilizada en ciencia de datos y bioinformática. Las diferentes
+> versiones de los programas se administran mediante un sistema de
+> gestión llamado *conda*, el cual hace bastante sencillo instalar,
+> correr y actualizar programas.
+> [Aqui](https://conda.io/projects/conda/en/latest/user-guide/install/index.html)
+> se encuentran las instrucciones para la instalación de Anaconda.
+>
+> Después de instalado *Anaconda* y su gestor *Conda*, podran ser
+> creados *ambientes virtuales* para la instalación de las diferentes
+> herramientas bioinformáticas que serán usadas.
+
+## Alguns comando do `conda`
+
+    conda create -n meuambiente # Crea um ambiente chamado meuambiente
+    conda activate meuambiente # Ativa o ambiente meuambiente
+    conda env list # Lista todos os ambientes criados
+    cond list # Rodando dentro de um ambiente, lista as ferramentas instaladas nesse ambiente
+
+🇧🇷 Para a instalação de cada ferramenta, visite o site
+<https://anaconda.org/> e na caixa de busca procure pela ferramenta que
+deseja e encontrara o comando para instalação.
+
+> 🇪🇸 Para instalación de cada herramienta, visite la página
+> <https://anaconda.org/> y en la caja de busqueda procure por la
+> herramienta que desea, y econtratá el comonado para instalación.
 
 **FIM**
